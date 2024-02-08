@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8" />
     <title>"Testing Webpage"</title>
+    <script type="text/javascript" src="node_modules/roslib/build/roslib.min.js"></script>
+    <script type="text/javascript" src="ros_demo.js"></script>
   </head>
   <body>
     <h1>Rosbridge demo</h1>
@@ -18,9 +20,10 @@
     <hr/>
 
     <p>Connection: <span id="status" style="font-weight: bold;">N/A</span></p>
+    <p>testing text</p>
+    <button id="publishTopic" onclick="publishMessage()">Publish Message</button>
     <p><code>/my_topic</code> messages received: <ul id="messages" style="font-weight: bold;"></ul></p>
 
-    <script type="text/javascript" src="node_modules/roslib/build/roslib.min.js"></script>
-    <script type="text/javascript" src="ros_demo.js"></script>
+
   </body>
 </html>
