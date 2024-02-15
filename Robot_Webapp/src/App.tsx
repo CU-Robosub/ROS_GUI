@@ -88,6 +88,8 @@ function App({ page }: { page: string }) {
         </Fragment>
       );
       break;
+    default:
+      return <h1>404 page not found</h1>;
   }
 }
 
