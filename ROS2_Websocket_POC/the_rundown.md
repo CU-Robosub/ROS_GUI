@@ -31,3 +31,6 @@ nmap -sP {your_local_ip_up_to_last"."}
 // What to put in the search bar:
 {local_ip_of_webserver_pc}:{port}
 ```
+
+## Some other notes
+The port of the ROSLIB.Ros object in `ros_demo.js` should be as follows:`ws://[local_ip]:[websocket_port]`
