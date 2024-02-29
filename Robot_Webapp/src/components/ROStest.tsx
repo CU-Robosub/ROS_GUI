@@ -5,7 +5,7 @@ function ROStest() {
   const [connectionStatus, setConnectionStatus] = useState("N/A");
 
   useEffect(() => {
-    const ros = new ROSLIB.Ros({ url: "ws://10.0.0.24:9090" });
+    const ros = new ROSLIB.Ros({ url: "ws://10.201.75.130:9090" });
 
     // When the Rosbridge server connects, update the connection status
     ros.on("connection", () => {
